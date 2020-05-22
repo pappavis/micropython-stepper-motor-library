@@ -1,5 +1,5 @@
 # micropython-stepper-motor-library
-Een <a href="http://micropython.readthedocs.io/" target="_blank">Micropython</a> bibliotheek om een <a href="https://github.com/gavinlyonsrepo/RpiMotorLib/blob/master/Documentation/28BYJ.md" - target="_blank">28BYJ-48</a> 5V stepper motor te kunnen gebruiken op met ESP8266 of ESP32.
+Een <a href="http://micropython.readthedocs.io/" target="_blank">Micropython</a> bibliotheek om een <a href="https://github.com/gavinlyonsrepo/RpiMotorLib/blob/master/Documentation/28BYJ.md" target="_blank">28BYJ-48</a> 5V stepper motor te kunnen gebruiken op met ESP8266 of ESP32.
 
 # Installatie
  - Optie 1: gebruik python <a href="https://pypi.org/project/mpfshell/">MPFshell</a> om die lib te upload naar jouw Micropython apparaat
