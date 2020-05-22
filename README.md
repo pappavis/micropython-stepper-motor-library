@@ -44,3 +44,7 @@ main()
 print("App eind")
 
 ```
+
+# Meer weten?
+Contact mij bij #Easylab4kids  #e4k
+
