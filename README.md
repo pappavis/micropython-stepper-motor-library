@@ -21,6 +21,8 @@ in1 tot in4:    pinnen om te gebruiken
 delay:          vertraging milliseconden.
 
 ## Voorbeeld:
+```python
     s1 = Stepper(mode=MODE_ACHTERUIT,in1=wemosPinsDict["D1"], in2=wemosPinsDict["D2"], in3=wemosPinsDict["D3"], in4=wemosPinsDict["D4"], delay=0.01)
     runner.run([Command(stepper=s1, steps=FULL_ROTATION/8)])  # run forward
 
+.
