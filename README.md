@@ -5,11 +5,15 @@ Een <a href="http://micropython.readthedocs.io/" target="_blank">Micropython</a>
  - Optie 1: gebruik <a href="https://pypi.org/project/mpfshell/">MPFshell</a> om die lib te upload naar jouw Micropython apparaat
  > mpfshell COM3
 
- > mkdir lib
-
- > cd lib
-
- > put uln2003_e4k.py
+```console
+foo@bar:~$ pip3 install mpfshell
+foo@bar:~$ mpfshell /dev/ttyUSB0
+mpfs [/]> mkdir lib
+mpfs [/]> cd lib
+mpfs [/]> put uln2003_e4k.py
+mpfs [/]> exit
+foo@bar:~$
+```
 
 - Optie 2: Upload middels <a href="https://thonny.org/">Thonny</a> IDE voor Micropython.
 
