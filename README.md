@@ -19,7 +19,9 @@ foo@bar:~$
 - Optie 2: Upload middels <a href="https://thonny.org/">Thonny</a> IDE voor Micropython.
 
 # Gebruik
+```python
 s1 = Stepper(mode, in1, in2, in3, in4, delay)
+```
 
 mode: MODE_ACHTERUIT|MODE_VOORUIT
 in1 tot in4:    pinnen om te gebruiken
