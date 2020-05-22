@@ -22,8 +22,25 @@ delay:          vertraging milliseconden.
 
 ## Voorbeeld:
 ```python
+import machine
+import micropython
+import uln2003_e4k
+import esp
+esp.osdebug(None)
+import gc
+gc.collect()
+
+def main():
+    # easy Wemos D1 mini pin lookup.
+    wemosPinsDict = {"D4":2, "D3":0, "D2":4, "D1":5, "RX":3, "TX":1, "D8":15, "D7":13, "D6":12, "D5":14, "D0":16}
+
+    # run forward once for 1/8th revolution.
     s1 = Stepper(mode=MODE_ACHTERUIT,in1=wemosPinsDict["D1"], in2=wemosPinsDict["D2"], in3=wemosPinsDict["D3"], in4=wemosPinsDict["D4"], delay=0.01)
     runner.run([Command(stepper=s1, steps=FULL_ROTATION/8)])  # run forward
-```
 
-.
+
+print("App start")
+main()
+print("App eind")
+
+```
