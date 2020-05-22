@@ -2,7 +2,7 @@
 Een <a href="http://micropython.readthedocs.io/" target="_blank">Micropython</a> bibliotheek om een 28BYJ-48 5V stepper motor te kunnen gebruiken op met ESP8266 of ESP32.
 
 # Installatie
- - Optie 1: gebruik <a href="https://pypi.org/project/mpfshell/">MPFshell</a> om die lib te upload naar jouw Micropython apparaat
+ - Optie 1: gebruik python <a href="https://pypi.org/project/mpfshell/">MPFshell</a> om die lib te upload naar jouw Micropython apparaat
 
 ```console
 foo@bar:~$ pip3 install mpfshell
