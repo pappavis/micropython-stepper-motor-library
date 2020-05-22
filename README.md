@@ -3,7 +3,6 @@ Een <a href="http://micropython.readthedocs.io/" target="_blank">Micropython</a>
 
 # Installatie
  - Optie 1: gebruik <a href="https://pypi.org/project/mpfshell/">MPFshell</a> om die lib te upload naar jouw Micropython apparaat
- > mpfshell COM3
 
 ```console
 foo@bar:~$ pip3 install mpfshell
