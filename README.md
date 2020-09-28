@@ -5,9 +5,9 @@ Een <a href="http://micropython.readthedocs.io/" target="_blank">Micropython</a>
  - Optie 1: gebruik python <a href="https://pypi.org/project/mpfshell/">MPFshell</a> om die lib te upload naar jouw Micropython apparaat
 
 ```console
+foo@bar:~$ pip3 install mpfshell
 foo@bar:~$ git clone https://github.com/pappavis/micropython-stepper-motor-library
 foo@bar:~$ cd micropython-stepper-motor-library
-foo@bar:~$ pip3 install mpfshell
 foo@bar:~$ mpfshell /dev/ttyUSB0
 mpfs [/]> mkdir lib
 mpfs [/]> cd lib
